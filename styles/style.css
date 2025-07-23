@@ -1,0 +1,41 @@
+/* "Noto serif" and "Inter" fonts imported from fonts.google.com */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  overflow-x: hidden;
+  background: #f5f8ff;
+  font-family: "Inter", sans-serif;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  display: flex;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Serif", serif;
+}
+
+/* Shared styles for entire landing page */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 80%;
+}
