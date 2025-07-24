@@ -1,6 +1,17 @@
 /* Mobile responsive  */
 @media screen and (max-width: 576px) {
+  body .container {
+    width: 100%;
+    /* margin-inlin */
+    padding: 0 16px;
+  }
+  body p {
+    font-size: 0.875rem;
+  }
   /* Start of Navbar Responsiveness */
+  header nav {
+    padding: 12px;
+  }
   header nav .nav-right .nav-links {
     display: none;
   }
@@ -14,4 +25,20 @@
     object-fit: cover;
   }
   /* End of Navbar Responsiveness */
+
+  /* Start of Hero Area */
+  .hero-area {
+    flex-direction: column-reverse;
+    margin-top: 28px;
+    gap: 24px;
+  }
+  .hero-area img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  header .hero-area .hero-text h1 {
+    font-size: 1.5rem;
+  }
+  /* End of Hero Area */
 }

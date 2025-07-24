@@ -36,10 +36,14 @@ h6 {
 /* Shared styles for entire landing page */
 .container {
   max-width: 1140px;
-  margin: 0 auto;
   width: 80%;
+  margin-inline: auto;
 }
-
+p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.375rem;
+  font-weight: 400;
+}
 /* Start of Navbar styles */
 nav {
   display: flex;
@@ -77,3 +81,21 @@ nav .nav-right {
   color: #000000;
 }
 /* End of Navbar styles */
+
+/* Start of Hero Area */
+.hero-area {
+  display: flex;
+  align-items: end;
+  /* padding-top: 256px; */
+}
+.hero-area .hero-text h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #111;
+}
+.hero-text h1 span {
+  color: #e95a08;
+}
+/* End of Hero Area */
