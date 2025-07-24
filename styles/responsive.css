@@ -2,11 +2,18 @@
 @media screen and (max-width: 576px) {
   body .container {
     width: 100%;
-    /* margin-inlin */
     padding: 0 16px;
   }
   body p {
     font-size: 0.875rem;
+    width: 100%;
+  }
+  main .section-heading h3 {
+    font-size: 1.5rem;
+  }
+  main .section-heading p {
+    width: 100%;
+    /* align-content: stretch; */
   }
   /* Start of Navbar Responsiveness */
   header nav {
@@ -41,4 +48,16 @@
     font-size: 1.5rem;
   }
   /* End of Hero Area */
+
+  /* Start of Plants section responsiveness */
+  main #plants {
+    margin: 30px auto;
+  }
+  main #plants .section-heading {
+    margin-bottom: 24px;
+  }
+  #plants .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* End of Plants section responsiveness */
 }
