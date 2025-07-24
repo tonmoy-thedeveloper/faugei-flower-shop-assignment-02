@@ -1,0 +1,17 @@
+/* Mobile responsive  */
+@media screen and (max-width: 576px) {
+  /* Start of Navbar Responsiveness */
+  header nav .nav-right .nav-links {
+    display: none;
+  }
+  nav .logo {
+    width: 63px;
+    height: 38px;
+  }
+  nav .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* End of Navbar Responsiveness */
+}

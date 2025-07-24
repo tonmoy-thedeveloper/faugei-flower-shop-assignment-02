@@ -39,3 +39,41 @@ h6 {
   margin: 0 auto;
   width: 80%;
 }
+
+/* Start of Navbar styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+nav .nav-right ul,
+nav .nav-right {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+.nav-right a {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.5ram;
+  text-transform: capitalize;
+  color: #8987a1;
+}
+.nav-links li:first-child {
+  color: #252432;
+  font-weight: 700;
+}
+.nav-right a span {
+  color: #000;
+}
+.nav-right a:last-child {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.nav-right a i {
+  font-size: 1.5rem;
+  color: #000000;
+}
+/* End of Navbar styles */
