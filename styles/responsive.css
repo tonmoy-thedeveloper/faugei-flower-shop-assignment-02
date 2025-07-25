@@ -60,4 +60,19 @@
     grid-template-columns: repeat(2, 1fr);
   }
   /* End of Plants section responsiveness */
+
+  /* Start of Plants lover section responsiveness */
+  main #plants-lover {
+    flex-direction: column;
+    gap: 18px;
+  }
+  #plants-lover .plants-left .badge {
+    display: none;
+  }
+  #plants-lover .plants-right ul li {
+    font-size: 0.875rem;
+    width: 100%;
+    margin-left: 20px;
+  }
+  /* End of Plants lover section responsiveness */
 }

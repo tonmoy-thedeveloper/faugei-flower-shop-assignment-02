@@ -143,18 +143,18 @@ nav .nav-right {
   font-size: 1.375rem;
   font-weight: 500;
   line-height: 150%;
-  margin: 30px auto 20px;
+  margin-top: 16px;
 }
 .card h5 {
   color: #111;
   font-family: Inter;
   font-size: 1.375rem;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 .card button {
   width: 100%;
-  padding: 26px 0;
+  padding: 16px 0;
   background: #e95a08;
   color: #fff;
   font-family: "Inter", sans-serif;
@@ -165,3 +165,51 @@ nav .nav-right {
   text-transform: capitalize;
 }
 /* End of Our Plants section   */
+
+/* Start of Plants Lover section */
+#plants-lover {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+#plants-lover .section-heading h3 {
+  text-align: start;
+  color: #000;
+}
+.plants-left {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  top: -100px;
+  right: -60px;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.plants-right .section-heading {
+  margin-bottom: 20px;
+}
+.plants-right ul li {
+  list-style: disc;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Inter", sans-serif;
+  font-size: 1.375rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.plants-right ul li:last-child {
+  margin-bottom: 0px;
+}
+/* End of Plants Lover section */
+
+/* Start of Our Deals section */
+
+/* End of Our Deals section */
