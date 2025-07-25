@@ -211,5 +211,115 @@ nav .nav-right {
 /* End of Plants Lover section */
 
 /* Start of Our Deals section */
+#deals {
+  margin: 100px auto;
+}
 
+.deals-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  gap: 24px;
+}
+.deal1 {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url(../assets/deal-bloom.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column: 1 / span 4;
+  grid-row: 1 / span 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 60px 0;
+  border-radius: 16px;
+}
+
+.deal2 {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url(../assets/deal-ana.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column: 1 / span 4;
+  grid-row: 7 / span 6;
+  /* grid-row: 7/6; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.deal3 {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url(../assets/deal-zabo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column: 5 / span 8;
+  grid-row: 1 / span 12;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.deal3 h3 {
+  color: #fff;
+  font-family: "Noto Serif", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+.deal3 a {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  text-transform: capitalize;
+  padding: 12px 0;
+}
+
+.deal1,
+.deal2 h3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Noto Serif";
+  font-size: 20px;
+  font-weight: 700;
+}
+.deal1 a,
+.deal2 a {
+  padding: 12px 0;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
 /* End of Our Deals section */

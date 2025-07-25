@@ -75,4 +75,32 @@
     margin-left: 20px;
   }
   /* End of Plants lover section responsiveness */
+
+  /* Start of Our Deals section responsiveness */
+  main #deals {
+    margin: 44px auto;
+  }
+  main #deals .deals-container {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  main #deals .deals-container .deal1 {
+    grid-column: 1 / span12;
+    grid-row: 1 / span 4;
+  }
+  main #deals .deals-container .deal2 {
+    grid-column: 1 / span12;
+    grid-row: 5 / span 4;
+  }
+  main #deals .deals-container .deal3 {
+    grid-column: 1 / span12;
+    grid-row: 9 / span 4;
+  }
+  main #deals .deals-container .deal3 h3 {
+    font-size: 1.25rem;
+  }
+  main #deals .deals-container .deal3 a {
+    font-size: 1rem;
+  }
+  /* End of Our Deals section responsiveness */
 }
