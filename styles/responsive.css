@@ -114,5 +114,15 @@
   main #join form {
     width: 100%;
   }
+
+  /* Start of Footer responsiveness */
+  footer .container .footer-con-main {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  footer .footer-con-main .footer-text p {
+    width: 100%;
+  }
+  /* End of Footer responsiveness */
   /* End of Join section responsiveness */
 }
