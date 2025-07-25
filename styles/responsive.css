@@ -103,4 +103,16 @@
     font-size: 1rem;
   }
   /* End of Our Deals section responsiveness */
+
+  /* Start of Join section responsiveness */
+  main #join {
+    padding: 80px 0;
+  }
+  main #join h3 {
+    font-size: 1.25rem;
+  }
+  main #join form {
+    width: 100%;
+  }
+  /* End of Join section responsiveness */
 }

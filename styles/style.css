@@ -258,6 +258,7 @@ nav .nav-right {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 16px;
   justify-content: center;
 }
 .deal3 {
@@ -276,6 +277,7 @@ nav .nav-right {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-radius: 16px;
 }
 
 .deal3 h3 {
@@ -323,3 +325,51 @@ nav .nav-right {
   text-underline-position: from-font;
 }
 /* End of Our Deals section */
+
+/* Start of Join section */
+#join {
+  background: url(../assets/news-letter-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max=height: 500px;
+  padding: 190px 0;
+  text-align: center;
+}
+#join h3 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#join form {
+  display: flex;
+  justify-content: center;
+  width: 830px;
+  margin: 0 auto;
+}
+#join form input {
+  padding: 16px 20px;
+  display: block;
+  border: none;
+  outline: none;
+}
+#join form input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+#join form input:first-child {
+  width: 100%;
+}
+#join form input:last-child {
+  padding: 0 40px;
+  text-transform: capitalize;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #e95a08;
+}
+/* End of Join section */
